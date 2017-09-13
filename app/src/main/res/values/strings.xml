@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="true">通讯录</string>
+    <string name="one" translatable="false">请输入要保存的电话号码</string>
+    <string name="there" translatable="false">保存</string>
+    <string name="tow" translatable="false">删除</string>
+    <string name="four" translatable="false">电话号码是</string>
+    <string name="a" translatable="false">Add</string>
+    <string name="b" translatable="false">Remove</string>
+    <string name="c" translatable="false">百度</string>
+    <string name="d" translatable="false">拨号</string>
+    <string name="e" translatable="false">返回</string>
+</resources>

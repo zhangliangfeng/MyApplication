@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liangfeng.myapplication.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/four"
+            android:maxLines="1" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/checkbox_off_background"
+                android:text="@string/there"
+                android:textColor="#7fbd5c"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/button1"
+                android:background="@android:drawable/checkbox_off_background"
+                android:elevation="0dp"
+                android:text="@string/tow"
+                android:textColor="#d0c13d"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/button3"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/button2"
+                android:background="@android:drawable/checkbox_off_background"
+                android:text="@string/c"
+                android:textColor="#d0c13d"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/button3"
+                android:background="@android:drawable/checkbox_off_background"
+                android:text="@string/d"
+                android:textColor="#d0c13d"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/button5"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/button4"
+                android:background="@android:drawable/checkbox_off_background"
+                android:text="@string/e"
+                android:textColor="#d0c13d"
+                android:textSize="20sp"
+                />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
